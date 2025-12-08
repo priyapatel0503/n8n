@@ -1,5 +1,5 @@
 # Use the official n8n Docker image
-FROM n8nio/n8n:1.122.6
+FROM n8nio/n8n:1.122.5
 
 # Heroku automatically sets PORT, NODE_ENV, etc.
 # No custom commands required.
