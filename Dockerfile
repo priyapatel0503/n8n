@@ -1,6 +1,7 @@
+# Use the official n8n Docker image
 FROM docker.n8n.io/n8nio/n8n:1.122.6
 
-# Install additional dependencies if needed
-# RUN apk add --no-cache <package>
+# Heroku automatically sets PORT, NODE_ENV, etc.
+# No custom commands required.
 
-# Heroku will run "n8n start" automatically from Procfile/heroku.yml
+# Default command is provided by n8n image (n8n start)
