@@ -1,0 +1,8 @@
+.git
+.gitignore
+.github
+node_modules
+npm-debug.log
+Dockerfile
+heroku.yml
+README.md
