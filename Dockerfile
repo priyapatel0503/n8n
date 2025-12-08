@@ -1,4 +1,4 @@
-FROM docker.n8n.io/n8nio/n8n:1.122.6
+FROM docker.n8n.io/n8nio/n8n:1.130.1
 
 # Install additional dependencies if needed
 # RUN apk add --no-cache <package>
